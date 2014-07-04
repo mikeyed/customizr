@@ -261,6 +261,18 @@ class TC_slider {
           </a>
         <?php endif; ?>
         
+		<div class="slider-sidebar">
+			<div class="slider-sidebar-widget">
+			<?php if( dynamic_sidebar( 'bannerSidebar' ) ): ?> 
+			
+			<?php else: ?>
+				<h2>Does Your Facility Make A Good First Impression?</h2>
+				<div class='title-bar'></div>
+				<p>CleanTeam USA has a wide variety of cleaning, maintenance and appearance solutions for companies of all sizes throughout Michigan. We specialize in commercial contract cleaning, retail floor care, carpet care and green cleaning.</p>
+			<?php endif; ?>
+			</div>
+		</div> 
+		
       </div><!-- /#customizr-slider -->
             
       <?php
